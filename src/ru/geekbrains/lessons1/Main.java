@@ -57,7 +57,7 @@ public class Main {
     }
     public static void year (int year){
         if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
-            System.out.println(year + " високосный год.");}
+            System.out.println(year + " високосный год.!");}
         else System.out.println( year + "не високосный год.!");
     }
 
